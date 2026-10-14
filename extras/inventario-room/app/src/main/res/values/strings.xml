@@ -1,0 +1,38 @@
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Mi inventario</string>
+    <string name="attention">Atención</string>
+    <string name="back_button">Volver</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_question">¿Quieres eliminar este producto?</string>
+    <string name="no_item_description">Todavía no hay productos.\nPulsa + para registrar el primero.</string>
+    <string name="edit_item_title">Editar producto</string>
+    <string name="item">Producto</string>
+    <string name="item_detail_title">Detalle del producto</string>
+    <string name="item_entry_title">Agregar producto</string>
+    <string name="item_name_req">Nombre del producto*</string>
+    <string name="item_price_req">Precio*</string>
+    <string name="no">Cancelar</string>
+    <string name="price">Precio</string>
+    <string name="quantity_in_stock">Unidades disponibles</string>
+    <string name="in_stock">%d unidades disponibles</string>
+    <string name="quantity_req">Unidades disponibles*</string>
+    <string name="save_action">Guardar</string>
+    <string name="sell">Registrar venta</string>
+    <string name="yes">Sí, eliminar</string>
+    <string name="required_fields">*Campos obligatorios</string>
+</resources>
