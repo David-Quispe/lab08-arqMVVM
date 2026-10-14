@@ -33,3 +33,14 @@ Para sincronizar, pulsa **Conectar**, elige una cuenta de Google y usa la misma 
 4. **Nube:** pulsa **Conectar** y elige tu cuenta de Google. Captura «Nube: sincronizada» en la app y el documento correspondiente en Firebase Console > Firestore > `users/{uid}/tasks`. Para demostrar dos dispositivos, abre la app con la misma cuenta en otro emulador o teléfono y captura la tarea allí.
 
 En `docs/Lab08-funcionando.png` está la captura de la parte guiada. La historia Git conserva los commits de esa parte y los cambios de este ejercicio por función.
+
+## Puntos adicionales: dos módulos de Room
+
+Se completaron como **dos proyectos Android independientes** dentro de `extras/`:
+
+- [Mi inventario](extras/inventario-room/README.md): lectura reactiva, venta, edición y eliminación de productos con Room.
+- [Mi ruta diaria](extras/horarios-bus-room/README.md): horarios precargados, lista ordenada y filtro por parada con Room.
+
+Cada carpeta tiene su propio `gradlew.bat` y se abre por separado en Android Studio. Ambas interfaces se adaptaron al español con un diseño distinto al de las guías originales. Los proyectos base de Google Developer Training y su licencia Apache 2.0 están identificados en los README de cada módulo.
+
+La [evidencia con texto y nueve capturas](docs/extras/Evidencia_Room_Lab08.md) muestra el funcionamiento en el emulador. Se verificaron dos pruebas del DAO de inventario y una del DAO de horarios; esta última comprobó los 31 registros precargados y el filtro de una parada.
