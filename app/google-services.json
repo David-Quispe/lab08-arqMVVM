@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1080061310972",
+    "project_id": "lab08-tareas-mvvm-40489",
+    "storage_bucket": "lab08-tareas-mvvm-40489.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080061310972:android:8390c99218cf1f9fd52479",
+        "android_client_info": {
+          "package_name": "com.example.lab08"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080061310972-g0bjtvdjcep713vhtuokne50aptk280q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab08",
+            "certificate_hash": "3219f46d4a83c98b974c31d2f8861e52d282a0fb"
+          }
+        },
+        {
+          "client_id": "1080061310972-ldgfur388fqk0knf1s6ji69g3h01lscn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKNXBzBo_bAAdYvtXGw0K87mqV3pEuS1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080061310972-ldgfur388fqk0knf1s6ji69g3h01lscn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
